@@ -10,6 +10,10 @@ def using_pop(array)
   return array.pop
 end
 
+def using_shift(array)
+  return array.shift
+end
+
 def pop_with_args(array)
   return array.pop(2)
 end
@@ -31,7 +35,7 @@ def using_uniq(array)
 end
 
 def flatten(array)
-  return array.flatten
+  return array.flatten!
 end
 
 def using_delete(array, string)
