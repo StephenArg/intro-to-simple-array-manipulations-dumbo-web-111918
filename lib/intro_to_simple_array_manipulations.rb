@@ -41,4 +41,3 @@ end
 def delete_at(array, number)
   array.delete_at(number)
 end
-  
